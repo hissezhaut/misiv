@@ -1,0 +1,14 @@
+{
+    "name": "hissezhaut/misiv",
+    "description": "Package generated from http://test.misiv.intra.misiv.fr/wsdl/ws_interface.php?CodeTMS=29-001535&Login=hissezhaut&Password=hissezhaut&ApiKey=519541d33a922466b5885375e3554bc229fb2fd84c3b987e58b0d3bbf9024a19 using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Misiv\\": "./src/"
+        }
+    }
+}
